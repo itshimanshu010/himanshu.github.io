@@ -43,9 +43,6 @@ nav{
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
-    opacity: 0;
-    animation:slideTop .5s ease forwards;
-    animation-delay:.5s;
 }
 
 a{
@@ -64,9 +61,6 @@ a:hover{
 
 .logo{
     font-size: 1.5rem;
-    opacity: 0;
-    animation:slideTop .5s ease forwards;
-    animation-delay:.7ss;
 }
 
 .logo:hover{
@@ -172,6 +166,9 @@ section{
 
 .section-container{
     display: flex;
+    opacity: 0;
+    animation:slideTop .5s ease forwards;
+    animation-delay:0.5s;
 }
 
 
@@ -189,20 +186,21 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;
-    
+    opacity: 0;
+    animation:slideTop .5s ease forwards;
+    animation-delay:0.5s; 
 }
 
 .section_text{
     align-self: center;
     text-align: center;
+    opacity: 0;
+    animation:slideTop .5s ease forwards;
+    animation-delay:0.5s;
 }
 
 .section_text p{
-    font-weight: 600;
-    opacity: 0;
-    animation:slideTop .5s ease forwards;
-    animation-delay:1s;
-
+    font-weight: 600; 
 }
 
 .section_text_p1{
@@ -217,9 +215,7 @@ section{
 .title{
     text-align: center;
     font-size: 3rem;
-    opacity: 0;
-    animation:slideTop .5s ease forwards;
-    animation-delay:1s;
+
 }
 
 #socials-container{
@@ -227,9 +223,6 @@ section{
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
-    opacity: 0;
-    animation:slideTop .5s ease forwards;
-    animation-delay:1s;
 }
 
 /******************/
@@ -246,9 +239,6 @@ section{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    opacity: 0;
-    animation:slideTop .5s ease forwards;
-    animation-delay:1.8s;
 }
 
 .btn{
@@ -375,6 +365,9 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    opacity: 0;
+    animation:slideTop .5s ease forwards;
+    animation-delay:0.5s;
 }
 .article-container{
     display: flex;
